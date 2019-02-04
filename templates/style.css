@@ -1,0 +1,24 @@
+body {
+    display: block;
+    margin-right: 200px;
+    margin-bottom: 200px;
+}
+p {
+    font-size: 30px;
+    margin: 0;
+}
+
+.top-center{
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    align-self:center;
+    text-align: center;
+    -ms-grid-column-align: center;
+}
+
+@media (max-width: 720px) {
+    .hemi-section {
+        width: 75%;
+    }
+}
